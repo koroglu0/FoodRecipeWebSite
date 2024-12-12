@@ -1,0 +1,178 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: center; /* Butonları yatay olarak ortalar */
+  align-items: center; /* Butonları dikey olarak ortalar */
+  height: 60px; /* Navbar yüksekliği */
+  background-color: #d4af37; /* Navbar arka plan rengi */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar button {
+  width: 100px; /* Buton genişliği */
+  height: 30px; /* Buton yüksekliği */
+  margin: 0 20px; /* Butonlar arasında boşluk */
+  padding: 5px 20px; /* Buton içeriği */
+  color: #762424; /* Buton yazı rengi */
+  background-color: #b0c4de; /* Buton arka plan rengi (yeşil) */
+  border: #218838; /* Buton kenar çizgisi */
+  cursor: pointer; /* Fare imlecini değiştirir */
+  border-radius: 18px; /* Buton köşe yuvarlama */
+}
+
+.navbar button:hover {
+  background-color: #50c878; /* Hover rengi (daha koyu yeşil) */
+}
+
+.home {
+  display: flex;
+  flex-direction: column; /* İçeriği dikey olarak hizalar */
+  align-items: center; /* İçeriği yatay olarak ortalar */
+  justify-content: center; /* İçeriği dikey olarak ortalar */
+  height: 100vh; /* Sayfanın tam yüksekliği */
+  background-color: #b0c4de; /* Arka plan rengi */
+}
+
+
+.home h1 {
+  text-align: left;
+  margin-right: 1200px;
+  padding-top: 30px;
+}
+.home h2 {
+  text-align: center; /* Metinleri ortalar */
+  margin: 0; /* Başlıkların çevresindeki boşlukları sıfırlar */
+  padding: 10px; /* Başlıkların etrafına boşluk ekler */
+}
+
+.home button {
+  padding: 20px 20px; /* Buton içeriği */
+  width: 400px; /* Buton genişliği */
+  height: 70px; /* Buton yüksekliği */
+  margin: 10px 0; /* Butonlar arasında dikey boşluk bırakır */
+  display: flex;
+  flex-direction: column; /* Butonları dikey olarak sıralar */
+  align-items: center; /* Butonları yatay olarak ortalar */
+  cursor: pointer; /* Fare imlecini değiştirir */
+  border-radius: 40px; /* Buton köşe yuvarlama */
+}
+
+.recipeButton {
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; /* Fare imlecini değiştirir */
+  font-style: italic; /* Yazıyı italik yapar */
+  font-weight: bold; /* Yazıyı kalın yapar */
+  font-size: 25px; /* Yazı boyutunu ayarlar */
+  color: darkred; /* Yazı rengini ayarlar */
+}
+
+.home button:hover {
+  background-color: #a48729;
+}
+
+.login {
+  display: flex;
+  flex-direction: column; /* İçeriği dikey olarak hizalar */
+  align-items: center; /* İçeriği yatay olarak ortalar */
+  justify-content: center; /* İçeriği dikey olarak ortalar */
+  height: 70vh; /* Sayfanın tam yüksekliği */
+  text-align: center; /* Metinleri ortalar */
+}
+
+.login h5 {
+  color: red;
+}
+
+.button {
+  background-color: #b0c4de; /* Arka plan rengini yeşil yapar */
+  color: white; /* Metin rengini beyaz yapar */
+  border: none; /* Kenarlıkları kaldırır */
+  border-radius: 8px; /* Köşeleri yuvarlak yapar */
+  cursor: pointer; /* Üzerine gelindiğinde imleci pointer yapar */
+  font-size: 16px; /* Font boyutunu ayarlar */
+}
+
+.button:hover {
+  background-color: #a48729; /* Üzerine gelindiğinde arka plan rengini koyu yeşil yapar */
+}
+.category {
+  display: flex;
+  flex-direction: column; /* İçeriği dikey olarak hizalar */
+  align-items: center; /* İçeriği yatay olarak ortalar */
+  justify-content: center; /* İçeriği dikey olarak ortalar */
+  height: 100vh; /* Sayfanın tam yüksekliği */
+  text-align: center; /* Metinleri ortalar */
+  background-color: #b0c4de; /* Arka plan rengini yeşil yapar */
+}
+.category h1 {
+  color: darkred;
+}
+.categorybuton {
+  padding: 20px 20px; /* Buton içeriği */
+  width: 400px; /* Buton genişliği */
+  height: 70px; /* Buton yüksekliği */
+  margin: 10px 0; /* Butonlar arasında dikey boşluk bırakır */
+  display: flex;
+  flex-direction: column; /* Butonları dikey olarak sıralar */
+  align-items: center; /* Butonları yatay olarak ortalar */
+  cursor: pointer; /* Fare imlecini değiştirir */
+  border-radius: 40px; /* Buton köşe yuvarlama */
+  font-style: italic; /* Yazıyı italik yapar */
+  font-weight: bold; /* Yazıyı kalın yapar */
+  font-size: 25px; /* Yazı boyutunu ayarlar */
+  color: darkred; /* Yazı rengini ayarlar */
+}
+
+Button:hover {
+  background-color: #a48729;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Sayfanın tamamını kaplar */
+}
+
+.register p {
+  font-style: italic;
+  color: #0dd19a;
+}
+
+.register input {
+  border-radius: 40px; /* Buton köşe yuvarlama */
+  font-style: italic;
+}
+
+.register h5 {
+  font-style: italic;
+  font-size: 50px;
+  color: #b0c4de;
+  border: black;
+}
+.registerButton {
+  border-radius: 40px; /* Buton köşe yuvarlama */
+  font-style: italic;
+  background-color: #b0c4de;
+}
+
+.registerButton:hover {
+  background-color: #a48729;
+}
+
+.recipeDetail {
+  background-color: #b0c4de;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.yükleniyor{
+  background-color: #b0c4de;
+}
+
